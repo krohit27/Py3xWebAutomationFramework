@@ -15,7 +15,7 @@ from tests.constants.constants import Constants
 def setup():
     driver = webdriver.Chrome()
     driver.maximize_window()
-    driver.get("https://app.vwo.com")
+    driver.get(Constants.app_url())
     return driver
 
 
